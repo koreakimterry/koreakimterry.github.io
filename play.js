@@ -9,8 +9,8 @@ canvas.style.backgroundColor='transparent';
 canvas.style.position = 'absolute';
 
 //이 예에서는 두 개의 임의 사진을 사용하여 매번 임의의 이미지를 배경으로 새로고침
-var imgs = ['1.jpg','2.jpg','3.jpg'];
-var num = Math.floor(Math.random()*3);
+var imgs = ['가니.jpg','누리.jpg','라니.jpg','로기.jpg','루키.jpg','맥스.jpg','빅.jpg','씨투.jpg','앨리스.jpg','에어.jpg','캐리.jpg','킨더.jpg','타요.jpg','토토.jpg','패트.jpg','프랭크.jpg','피넛.jpg','하나.jpg'];
+var num = Math.floor(Math.random()*18);
 img.src = imgs[num];
 
 //그런 다음 본문을 입력합니다. 이미지가로드 된 것을 감지하면 먼저 일부 속성과 함수를 정의합니다. 기능 레이어 ()는 회색 사각형을 그리는 데 사용됩니다 .EventDown ()은 프레스 이벤트를 정의합니다. () 눌렀을 때 좌표 변위를 가져오고 작은 점을 호 (x, y, 10, 0, Math.PI * 2)로 그리는 이동 이벤트를 정의합니다.
